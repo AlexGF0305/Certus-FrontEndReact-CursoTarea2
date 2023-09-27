@@ -1,0 +1,53 @@
+.character-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Espacio entre los personajes */
+  }
+  
+  .character-card {
+    border: 1px solid #ccc; /* Borde alrededor de cada personaje */
+    padding: 10px;
+    width: 300px; /* Ancho de cada tarjeta */
+    background-color: #f7f7f7; /* Color de fondo de la tarjeta */
+    transition: box-shadow 0.3s ease; /*transision del efecto */
+  }
+
+ .character-card:hover {
+  transform: scale(1.05); /* Escala el elemento al 105% de su tamaño original al pasar el cursor */
+}
+  
+  .character-card h2 {
+    margin: 0;
+  }
+  
+  .character-card img {
+    max-width: 100%;
+  }
+  
+  .modal {
+    /* Estilos para el modal aquí (tamaño, posición, fondo, etc.) */
+    display: none;
+    /* Resto de estilos para el modal */
+  }
+
+
+/* styles.css */
+
+body {
+  background: linear-gradient(45deg, #88e23b, #ebe480, #043c6e, #60a85f, #a6cccc, #6b7132);
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif; /* Añade una fuente de tu elección */
+  min-height: 100vh; /* Asegura que el fondo se extienda por toda la altura de la ventana */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+
+
+
